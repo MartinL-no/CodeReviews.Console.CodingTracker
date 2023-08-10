@@ -3,7 +3,7 @@ using Microsoft.Data.Sqlite;
 
 namespace CodingTracker.MartinL_no.DAL;
 
-internal class CodingGoalRepository : ICodingGoalRepository
+internal class CodingGoalRepository
 {
     private readonly string _connString;
     private readonly string _dbPath;
